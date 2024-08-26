@@ -35,5 +35,5 @@ def upload():
             pred=model.image_prediction(image=model.image)
             return jsonify({"prediction":pred})
         
-if __name__ == "__main__":
-    app.run(host="0.0.0.0",port=4000)
+# if __name__ == "__main__":
+#     app.run(host="0.0.0.0",port=4000)
